@@ -1,4 +1,5 @@
-// import '@/styles/globals.css'
+import Navbar from '@/components/navbar/Navbar'
+import '@/styles/Global.css'
 import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }) {
         </Head>
 
         <main className={montserrat.className}>
+            <Navbar/>
         <Component {...pageProps} />
         </main>
         </>
