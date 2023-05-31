@@ -1,7 +1,5 @@
 .navbar_header{
-    padding: 1%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     top:0px;
@@ -10,11 +8,12 @@
     height: 100px;
     background-color: var(--primer-color);
     border-bottom: 1px solid;
-    
+    justify-content: space-around;
 }
-.navbar_container{
-    width: 200%;
+.navbar_registro{
+    padding: 10px;
 }
+
 .navbar_link{
     margin-left: 2rem;
     position: relative;
@@ -45,16 +44,10 @@
     left: -0;
     bottom: -0.5;
 }
-.navbar_logo_link{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
 .navbar_logo{
     width: 10rem;
-    height: 10%;
-    
+    height: 10%; 
 }
 
 .navbar_footer{

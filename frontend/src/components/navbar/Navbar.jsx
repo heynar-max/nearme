@@ -12,14 +12,18 @@ const Navbar = () => {
 
     return (
         <header className={styles.navbar_header}>
-                    <Link href="/" className={styles.navbar_logo_link}><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true} /></Link>
-                <nav className={styles.navbar_container}>
-                        <CustomLink href="/" title='Home' />
-                        <CustomLink href="/about" title='About' />
-                        <CustomLink href="/projects" title='Projects ' />
-                        <CustomLink href="/article" title='Article' />
-                </nav>
+                <Link href='/' ><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true}/></Link>
+            <nav>
+                <CustomLink href="/" title='Home' />
+                <CustomLink href="/about" title='About' />
+                <CustomLink href="/projects" title='Projects ' />
+                <CustomLink href="/article" title='Article' />
+            </nav>
+            <nav>
+                <Link className={styles.navbar_registro} href="/">Iniciar sesion</Link>
+                <Link className={styles.navbar_registro} href="/">ingresar</Link>
                 
+            </nav>       
 
                 {/* <nav className={styles.navbar_footer}>
                     <div className={styles.ensayo}>
