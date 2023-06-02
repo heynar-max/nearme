@@ -1,0 +1,167 @@
+.githubProjects{
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 1rem;
+}
+.mongo{
+    font-size: 3rem;
+    color: rgb(16, 132, 3);
+    margin-right: 1rem;
+}
+.reactl{
+    font-size: 3rem;
+    color: rgb(18, 135, 230);
+    margin-right: 1rem;
+}
+.pythonl{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.html{
+    font-size: 3rem;
+    color: rgb(206, 27, 27);
+    margin-right: 1rem;
+}
+.css{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.mysql{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.tableaul{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.fatimes{
+    font-size: 2rem;
+}
+.fabars{
+    font-size: 2rem;
+}
+.cihome{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.github{
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 1rem;
+}
+.github:hover{
+    animation: github 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+
+@keyframes github {
+	0% {
+		transform: scale(1.5);
+	}
+	50% {
+		transform: scale(1.5) rotate(30deg);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+	
+}
+
+.tableau{
+    font-size: 1.8rem;
+    color: #0a60c2;
+    margin-right: 1rem;
+}
+.tableau:hover{
+	animation: tableau 8s infinite linear;
+}
+@keyframes tableau {
+	0% {
+		transform: scale(1.5) rotate(0deg);
+        color: #0a60c2;
+    }
+    33% {
+		transform: scale(1.5) rotate(120deg);
+        color: red;
+	}
+    66% {
+		transform: scale(1.5) rotate(240deg);
+        color: rgb(255, 149, 0);
+	}
+	100% {
+		transform: scale(1.5) rotate(360deg);
+        color: rgb(0, 238, 255);
+	}
+}
+
+.linkedin{
+    font-size: 1.8rem;
+    color: #0a66c2 ;
+    margin-right: 1rem;
+}
+.linkedin:hover{
+    animation: linkedin 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes linkedin {
+	0% {
+		transform: scale(1.5) translateX(0);
+	}
+	15% {
+		transform: scale(1.5) translateX(5px);
+	}
+	30% {
+		transform: scale(1.5) translateX(-5px);
+	}
+	45% {
+		transform: scale(1.5) translateX(3px);
+	}
+	60% {
+		transform: scale(1.5) translateX(-3px);
+	}
+	75% {
+		transform: scale(1.5) translateX(0);
+	}
+	100% {
+		transform: scale(1.5) translateX(0);
+	}
+}
+@media(max-width: 550px){
+
+    .mongo{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .reactl{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .pythonl{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .html{
+        font-size: 2rem;
+        margin-right: 0rem;;
+    }
+    .css{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .mysql{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .tableaul{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+}

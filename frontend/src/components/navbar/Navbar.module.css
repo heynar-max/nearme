@@ -71,7 +71,7 @@
         display: none;
     }
     .navbar_link_mobile{
-        margin-left: 2rem;
+        margin-left: 1rem;
         position: relative;
         font-size: .8rem;
         display: flex;
@@ -98,7 +98,7 @@
         bottom: -0.5;
         z-index: -1;
     }
-    .ensayo{
+    .navbar_footer_container{
         display: flex;
         align-items: flex-end;
         
@@ -132,7 +132,7 @@
         z-index: 1; */
         
     }
-    .ensayo{
+    .navbar_footer_container{
         display: flex;
         align-items: flex-end;
         margin: 50rem;
