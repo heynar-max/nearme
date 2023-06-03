@@ -1,4 +1,20 @@
 :root{
-    --primer-color : #F5F5F5;
+--font-mono: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    --primer-color : #F7F7F7;
+    --segundo-color : #FF0035;
+    --tercer-color : #38405f;
+    --cuarto-color : #f8c529 ;
     
 }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: var(--primer-color)
+  }

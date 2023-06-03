@@ -17,6 +17,8 @@
 .navbar_link{
     margin-left: 2rem;
     position: relative;
+    text-decoration: none;
+    color: var(--tercer-color);
 }
 .navbar_link_mobile{
     margin-left: 2rem;
@@ -31,10 +33,13 @@
     position: absolute;
     left: -0;
     bottom: -0.5;
+    
+    
 }
 .navbar_link:hover{
     width: 100%;
     border-bottom: 1px solid;
+    color: var(--segundo-color)
 }
 .w_full{
     width: 100%;
@@ -52,6 +57,14 @@
 
 .navbar_footer{
     display: none;
+}
+.navbar_registro{
+    text-decoration: none;
+    color: var(--tercer-color);
+}
+.navbar_registro:hover{
+    text-decoration: none;
+    color: var(--segundo-color);
 }
 
 
