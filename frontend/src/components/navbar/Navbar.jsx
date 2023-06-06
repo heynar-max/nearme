@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Logo from'../../../public/image/logoneatme.png'
 import styles from './Navbar.module.css'
-import { FaFaBars, FaFaTimes, File, Folder, Github, Home, Html, Linkend, PythonL, Tableau, User } from '../icon/index'
+import { FaFaBars, FaFaTimes, File, Folder, Github, Home, Html, Linkend, Plus, PythonL, Tableau, User } from '../icon/index'
 import {Navbarmovile, CustomLink} from './Navbarmovile'
 
 
@@ -29,10 +29,10 @@ const Navbar = () => {
                 <nav className={styles.navbar_footer}>
                     <div className={styles.navbar_footer_container}>
                             <Navbarmovile className={styles.otro} href='/' icon={<Home/>} title='Home' />
-                            <Navbarmovile className={styles.otro} href='/about' icon={<User/>} title='About' />
-                            <Navbarmovile className={styles.otro} href='/about' icon={<User/>} title='About' />
-                            <Navbarmovile className={styles.otro} href='/projects' icon={<Folder/>} title='Projects' />
-                            <Navbarmovile className={styles.otro} href='/article' icon={<File/>} title='Article' />
+                            <Navbarmovile className={styles.otro} href='/about' icon={<User/>} title='Servicio' />
+                            <Navbarmovile className={styles.otro} href='/about' icon={<Plus/>} />
+                            <Navbarmovile className={styles.otro} href='/projects' icon={<Folder/>} title='Ocupacion' />
+                            <Navbarmovile className={styles.otro} href='/article' icon={<File/>} title='Somos' />
                     </div>
                             </nav>
             
