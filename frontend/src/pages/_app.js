@@ -1,10 +1,11 @@
 import Navbar from '@/components/navbar/Navbar'
 import '@/styles/Global.css'
-import { Montserrat } from 'next/font/google'
+import { Lora } from 'next/font/google'
 import Head from 'next/head'
 
 
-const montserrat = Montserrat({ 
+const fuente = Lora({
+    weight: '400', 
     subsets: ['latin']
 })
 
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className={montserrat.className}>
+        <main className={fuente.className}>
             <Navbar/>
         <Component {...pageProps} />
         </main>

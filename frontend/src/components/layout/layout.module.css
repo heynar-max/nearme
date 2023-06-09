@@ -1,0 +1,11 @@
+.layout{
+    padding: 0 3rem 0 8rem;
+    margin-top: 10rem;
+
+}
+@media (max-width: 800px){
+    .layout{
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+}
